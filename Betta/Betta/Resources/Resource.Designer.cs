@@ -26,6 +26,8 @@ namespace Betta
 		
 		public static void UpdateIdValues()
 		{
+			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.ApplicationName = global::Betta.Resource.String.ApplicationName;
+			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.Hello = global::Betta.Resource.String.Hello;
 		}
 		
 		public partial class Attribute
